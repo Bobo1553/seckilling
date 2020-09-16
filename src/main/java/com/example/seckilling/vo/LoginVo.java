@@ -4,7 +4,9 @@ package com.example.seckilling.vo;
  * @author Xiao Yijia
  * @create 2020-09-16 9:49
  */
+
 public class LoginVo {
+
     private String mobile;
     private String password;
 
@@ -31,4 +33,5 @@ public class LoginVo {
                 ", password='" + password + '\'' +
                 '}';
     }
+
 }

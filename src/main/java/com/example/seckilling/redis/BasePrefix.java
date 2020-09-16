@@ -4,6 +4,7 @@ package com.example.seckilling.redis;
  * @author Xiao Yijia
  * @create 2020-09-15 20:48
  */
+
 public class BasePrefix implements KeyPrefix {
 
     private int expireSeconds;
@@ -22,7 +23,6 @@ public class BasePrefix implements KeyPrefix {
 
     /**
      * 默认0为永不过期
-     * @return
      */
     @Override
     public int expireSeconds() {
@@ -34,4 +34,5 @@ public class BasePrefix implements KeyPrefix {
         String className = getClass().getSimpleName();
         return className + ":" + prefix;
     }
+
 }

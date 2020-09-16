@@ -2,7 +2,6 @@ package com.example.seckilling.service;
 
 import com.example.seckilling.dao.UserDao;
 import com.example.seckilling.domain.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,15 +13,18 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class UserService {
 
-    @Autowired
-    UserDao userDao;
+    private final UserDao userDao;
 
-    public User getById(int id){
+    public UserService(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
+    public User getById(int id) {
         return userDao.getById(id);
     }
 
     @Transactional
-    public boolean transaction() {
+    public void transaction() {
         User user1 = new User();
         user1.setId(3);
         user1.setName("Tinker");
@@ -33,6 +35,6 @@ public class UserService {
         user2.setName("Tom");
         userDao.insert(user2);
 
-        return true;
     }
+
 }

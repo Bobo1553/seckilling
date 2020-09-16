@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "redis")
 public class RedisConfig {
+
     private String host;
     private int port;
     private int timeout;
@@ -74,4 +75,5 @@ public class RedisConfig {
     public void setPoolMaxWait(int poolMaxWait) {
         this.poolMaxWait = poolMaxWait;
     }
+
 }

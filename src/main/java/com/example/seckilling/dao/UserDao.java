@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Component;
 
 /**
  * @author Xiao Yijia
@@ -12,6 +13,7 @@ import org.apache.ibatis.annotations.Select;
  */
 
 @Mapper
+@Component
 public interface UserDao {
 
     @Select("select * from user where id = #{id}")
@@ -19,4 +21,5 @@ public interface UserDao {
 
     @Insert("insert into user(id, name) values(#{id}, #{name})")
     void insert(User user);
+
 }

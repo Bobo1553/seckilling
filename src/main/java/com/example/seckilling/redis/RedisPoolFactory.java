@@ -10,10 +10,15 @@ import redis.clients.jedis.JedisPoolConfig;
  * @author Xiao Yijia
  * @create 2020-09-15 16:48
  */
+
 @Service
 public class RedisPoolFactory {
-    @Autowired
-    RedisConfig redisConfig;
+
+    private final RedisConfig redisConfig;
+
+    public RedisPoolFactory(RedisConfig redisConfig) {
+        this.redisConfig = redisConfig;
+    }
 
     @Bean
     public JedisPool JedisPoolFactory() {
@@ -23,4 +28,5 @@ public class RedisPoolFactory {
         jedisPoolConfig.setMaxWaitMillis(redisConfig.getPoolMaxWait() * 1000);
         return new JedisPool(jedisPoolConfig, redisConfig.getHost(), redisConfig.getPort(), redisConfig.getTimeout() * 1000, redisConfig.getPassword(), 0);
     }
+
 }

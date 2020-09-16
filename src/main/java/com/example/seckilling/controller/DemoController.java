@@ -22,66 +22,67 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/demo")
 public class DemoController {
 
-    @Autowired
-    UserService userService;
+    private final UserService userService;
+    private final RedisService redisService;
 
-    @Autowired
-    RedisService redisService;
+    public DemoController(UserService userService, RedisService redisService) {
+        this.userService = userService;
+        this.redisService = redisService;
+    }
 
     @RequestMapping("/")
     @ResponseBody
-    String home(){
+    String home() {
         return "Hello World!";
     }
 
     @RequestMapping("/hello")
     @ResponseBody
-    public Result<String> hello(){
+    public Result<String> hello() {
         return Result.success("hello, imooc!");
     }
 
     @RequestMapping("/helloError")
     @ResponseBody
-    public Result<String> helloError(){
+    public Result<String> helloError() {
         return Result.error(CodeMsg.SERVER_ERROR);
     }
 
     @RequestMapping("/thymeleaf")
-    public String thymeleaf(Model model){
+    public String thymeleaf(Model model) {
         model.addAttribute("name", "ethan");
         return "hello";
     }
 
     @RequestMapping("/db/get")
     @ResponseBody
-    public Result<User> dbGet(){
+    public Result<User> dbGet() {
         User user = userService.getById(1);
         return Result.success(user);
     }
 
     @RequestMapping("/db/transaction")
     @ResponseBody
-    public Result<Boolean> dbTransaction(){
+    public Result<Boolean> dbTransaction() {
         userService.transaction();
         return Result.success(true);
     }
 
     @RequestMapping("/redis/get")
     @ResponseBody
-    public Result<User> redisGet(){
+    public Result<User> redisGet() {
         User user = redisService.get(UserKey.getByID, "1", User.class);
         return Result.success(user);
     }
 
     @RequestMapping("/redis/set")
     @ResponseBody
-    public Result<Boolean> redisSet(){
+    public Result<Boolean> redisSet() {
         User user = new User();
         user.setId(1);
         user.setName("ethan");
-        boolean result = redisService.set(UserKey.getByID,"1", user);
+        boolean result = redisService.set(UserKey.getByID, "1", user);
         return Result.success(result);
     }
-
 
 }

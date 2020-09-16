@@ -6,6 +6,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * @author Xiao Yijia
  * @create 2020-09-15 22:00
  */
+
 public class MD5Util {
 
     private static final String SALT = "1a2b3c4d";
@@ -33,4 +34,5 @@ public class MD5Util {
         System.out.println(inputPassToFormPass("123456"));//a0a5918a88f8ba33361cd49cadc360df
         System.out.println(inputPassToDbPass("123456", "1a2b3c4d"));
     }
+
 }

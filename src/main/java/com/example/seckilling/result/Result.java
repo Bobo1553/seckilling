@@ -4,7 +4,9 @@ package com.example.seckilling.result;
  * @author Xiao Yijia
  * @create 2020-09-15 10:43
  */
+
 public class Result<T> {
+
     private int code;
     private String msg;
     private T data;
@@ -24,22 +26,16 @@ public class Result<T> {
 
     /**
      * 成功的时候调用
-     * @param data
-     * @param <T>
-     * @return
      */
     public static <T> Result<T> success(T data) {
-        return new Result<T>(data);
+        return new Result<>(data);
     }
 
     /**
      * 失败时候的调用
-     * @param codeMsg
-     * @param <T>
-     * @return
      */
     public static <T> Result<T> error(CodeMsg codeMsg) {
-        return new Result<T>(codeMsg);
+        return new Result<>(codeMsg);
     }
 
     public int getCode() {

@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeb4a702-735d-4f9e-b462-8ea3c1d7ff86" name="Default Changelist" comment="">
+    <list default="true" id="eeb4a702-735d-4f9e-b462-8ea3c1d7ff86" name="Default Changelist" comment="登录功能实现">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/dao/SeckillingUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/domain/SeckillingUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/service/SeckillingUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/util/ValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/seckilling.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/dao/SeckillingUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/domain/SeckillingUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/service/SeckillingUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/util/ValidatorUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/BasePrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/BasePrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/KeyPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/KeyPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/OrderKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/OrderKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisPoolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisPoolFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/UserKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/UserKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/CodeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/CodeMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/vo/LoginVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/seckilling.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/CodeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/CodeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +60,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hOOjzJ9JouXXpSOToHW5jIYmpI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,6 +75,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
@@ -60,7 +88,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -70,9 +98,22 @@
       <recent name="D:\Software\Java\IDEA\workspace\seckilling\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MD5Util">
+  <component name="RunManager" selected="Spring Boot.SeckillingApplication">
     <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.seckilling.util.MD5Util" />
+      <module name="seckilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.seckilling.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.seckilling.util.ValidatorUtil" />
       <module name="seckilling" />
       <extension name="coverage">
         <pattern>
@@ -93,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidatorUtil" />
         <item itemvalue="Application.MD5Util" />
       </list>
     </recent_temporary>
@@ -121,64 +163,83 @@
       <updated>1599878810260</updated>
       <workItem from="1599878817414" duration="28985000" />
     </task>
+    <task id="LOCAL-00001" summary="登录功能实现中">
+      <created>1600262117479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600262117479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录功能实现中" />
+    <MESSAGE value="登录功能实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录功能实现" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600221042691">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1600264136222">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600264136222" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221042691" />
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1600266841803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600266841803" />
     <state x="575" y="164" key="FileChooserDialogImpl" timestamp="1600257743948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="575" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600257743948" />
     <state x="719" y="207" key="FileChooserDialogImpl/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221679876" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600266768227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600266768227" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600266768227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600266768227" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1600262038721">
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1600266768228">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600262038721" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600266768228" />
     <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1600221686240">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="352" y="74" key="SettingsEditor" timestamp="1600266698674">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="352" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600266698674" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221686240" />
     <state x="178" y="23" key="new project wizard" timestamp="1600257766336">
       <screen x="0" y="0" width="1536" height="824" />

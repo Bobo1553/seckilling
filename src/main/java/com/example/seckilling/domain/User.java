@@ -4,6 +4,7 @@ package com.example.seckilling.domain;
  * @author Xiao Yijia
  * @create 2020-09-15 10:31
  */
+
 public class User {
     private int id;
     private String name;
@@ -23,4 +24,5 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
 }
