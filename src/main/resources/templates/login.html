@@ -61,7 +61,6 @@
     function login() {
         $("#loginForm").validate({
             submitHandler: function (form) {
-                alert("123456");
                 doLogin();
             }
         });
@@ -84,7 +83,6 @@
             },
             success: function (data) {
                 layer.closeAll();
-                alert(data);
                 console.log(data);
             },
             error: function () {

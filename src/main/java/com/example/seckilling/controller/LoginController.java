@@ -40,7 +40,6 @@ public class LoginController {
     @RequestMapping("/do_login")
     @ResponseBody
     public Result<Boolean> doLogin(LoginVo loginVo){
-        System.out.println(loginVo);
         LOG.info(loginVo.toString());
         return null;
     }

@@ -61,7 +61,6 @@
     function login() {
         $("#loginForm").validate({
             submitHandler: function (form) {
-                alert("123456");
                 doLogin();
             }
         });
@@ -74,6 +73,7 @@
         let salt = g_passsword_salt;
         let str = "" + salt.charAt(0) + salt.charAt(3) + inputPass + salt.charAt(4) + salt.charAt(6);
         let password = md5(str);
+        alert(password);
 
         $.ajax({
             url: "/login/do_login",
@@ -84,7 +84,6 @@
             },
             success: function (data) {
                 layer.closeAll();
-                alert(data);
                 console.log(data);
             },
             error: function () {
