@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,8 +52,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.seckilling.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software\Java\IDEA\workspace\seckilling\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeckillingApplication">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.seckilling.util.MD5Util" />
+      <module name="seckilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.seckilling.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeckillingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="seckilling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.seckilling.SeckillingApplication" />
@@ -60,6 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -83,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599878810260</updated>
-      <workItem from="1599878817414" duration="18813000" />
+      <workItem from="1599878817414" duration="28985000" />
     </task>
     <servers />
   </component>
@@ -91,45 +119,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600174291635">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600221042691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600174291635" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600175258644">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221042691" />
+    <state x="719" y="207" key="FileChooserDialogImpl" timestamp="1600221679876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258644" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600175258643">
+    <state x="719" y="207" key="FileChooserDialogImpl/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221679876" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258643" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600175258643">
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258643" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600175258643">
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258643" />
-    <state width="1877" height="274" key="GridCell.Tab.1.bottom" timestamp="1600175258644">
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258644" />
-    <state width="1877" height="274" key="GridCell.Tab.1.center" timestamp="1600175258644">
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258644" />
-    <state width="1877" height="274" key="GridCell.Tab.1.left" timestamp="1600175258644">
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.1.center" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258644" />
-    <state width="1877" height="274" key="GridCell.Tab.1.right" timestamp="1600175258644">
+    <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.1.left" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600175258644" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1599878927701">
+    <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right" timestamp="1600223904254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1599878927701" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1600221686240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221686240" />
   </component>
 </project>

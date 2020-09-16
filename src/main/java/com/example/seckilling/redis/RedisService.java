@@ -30,9 +30,7 @@ public class RedisService {
         try {
             jedis = jedisPool.getResource();
             String realKey = prefix.getPrefix() + key;
-            System.out.println(realKey);
             String str = jedis.get(realKey);
-            System.out.println(str);
             return stringToBean(str, clazz);
         } finally {
             returnToPool(jedis);
