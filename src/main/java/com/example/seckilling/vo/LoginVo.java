@@ -1,5 +1,10 @@
 package com.example.seckilling.vo;
 
+import com.example.seckilling.validator.IsMobile;
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotNull;
+
 /**
  * @author Xiao Yijia
  * @create 2020-09-16 9:49
@@ -7,7 +12,12 @@ package com.example.seckilling.vo;
 
 public class LoginVo {
 
+    @NotNull
+    @IsMobile()
     private String mobile;
+
+    @NotNull
+    @Length(min = 32)
     private String password;
 
     public String getMobile() {
