@@ -2,6 +2,8 @@ package com.example.seckilling.exception;
 
 import com.example.seckilling.result.CodeMsg;
 import com.example.seckilling.result.Result;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.validation.BindException;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -20,6 +22,8 @@ import java.util.List;
 @ResponseBody
 public class GlobalExceptionHandler {
 
+    private static final Logger LOG = LoggerFactory.getLogger(GlobalException.class);
+
     @ExceptionHandler(value = Exception.class)
     public Result<String> exceptionHandler(HttpServletRequest request, Exception exception) {
         if (exception instanceof GlobalException) {
@@ -32,6 +36,7 @@ public class GlobalExceptionHandler {
             String msg = error.getDefaultMessage();
             return Result.error(CodeMsg.BIND_ERROR.fillArgs(msg));
         } else {
+            LOG.info(exception.getMessage());
             return Result.error(CodeMsg.SERVER_ERROR);
         }
     }

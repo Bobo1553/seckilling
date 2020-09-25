@@ -40,7 +40,7 @@ public class LoginController {
     public Result<Boolean> doLogin(HttpServletResponse response, @Valid LoginVo loginVo) {
         LOG.info(loginVo.toString());
         // 登录
-        seckillingUserService.login(loginVo);
+        seckillingUserService.login(response, loginVo);
         return Result.success(true);
     }
 

@@ -2,43 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeb4a702-735d-4f9e-b462-8ea3c1d7ff86" name="Default Changelist" comment="登录功能实现">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/validator/IsMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/validator/IsMobileValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/config/UserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/redis/SeckillingUserKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/util/UUIDUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/goods_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckilling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seckilling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/CodeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/result/CodeMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/exception/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/service/SeckillingUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/service/SeckillingUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/seckilling/vo/LoginVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/seckilling/vo/LoginVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/DemoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/dao/SeckillingUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/dao/SeckillingUserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/domain/SeckillingUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/domain/SeckillingUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/BasePrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/BasePrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/OrderKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/OrderKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisPoolFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisPoolFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/RedisService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/UserKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/redis/UserKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/CodeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/CodeMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/exception/GlobalExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/service/SeckillingUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/service/SeckillingUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/util/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/util/MD5Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/util/ValidatorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/util/ValidatorUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/seckilling/vo/LoginVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/seckilling/vo/LoginVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -167,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599878810260</updated>
       <workItem from="1599878817414" duration="28985000" />
-      <workItem from="1600306561171" duration="2486000" />
+      <workItem from="1600306561171" duration="6098000" />
+      <workItem from="1600395166672" duration="5962000" />
+      <workItem from="1601040927153" duration="3892000" />
     </task>
     <task id="LOCAL-00001" summary="登录功能实现中">
       <created>1600262117479</created>
@@ -176,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600262117479</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JSR参数校验和全局异常处理器">
+      <created>1600309183729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600309183729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,72 +176,81 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="登录功能实现中" />
     <MESSAGE value="登录功能实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录功能实现" />
+    <MESSAGE value="JSR参数校验和全局异常处理器" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSR参数校验和全局异常处理器" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1600308641852">
+    <state x="361" y="71" key="#Notifications" timestamp="1600676776635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600308641852" />
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1600676776635" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600425384761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600425384761" />
+    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1601045014863">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="612" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601045014863" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221042691" />
-    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1600266841803">
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1601045116645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600266841803" />
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601045116645" />
     <state x="575" y="164" key="FileChooserDialogImpl" timestamp="1600257743948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="575" y="164" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600257743948" />
     <state x="719" y="207" key="FileChooserDialogImpl/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221679876" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.1.center" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.1.center/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.1.left" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.1.left/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
-    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1600309070076">
+    <state width="1493" height="210" key="GridCell.Tab.1.right" timestamp="1601045116692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600309070076" />
+    <state width="1493" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601045116692" />
     <state width="1877" height="274" key="GridCell.Tab.1.right/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600223904254" />
     <state x="352" y="74" key="SettingsEditor" timestamp="1600266698674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="74" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600266698674" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1600.172.1600.860@0.0.1920.1040" timestamp="1600221686240" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1600306871660">
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1601040930458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600306871660" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1601040930458" />
     <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1600308840337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -259,5 +259,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="23" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600257766336" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601044227063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601044227063" />
   </component>
 </project>

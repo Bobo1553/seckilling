@@ -6,8 +6,6 @@ import com.example.seckilling.redis.UserKey;
 import com.example.seckilling.result.CodeMsg;
 import com.example.seckilling.result.Result;
 import com.example.seckilling.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
