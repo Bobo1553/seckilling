@@ -1,6 +1,5 @@
 package com.example.seckilling.controller;
 
-import com.example.seckilling.result.CodeMsg;
 import com.example.seckilling.result.Result;
 import com.example.seckilling.service.SeckillingUserService;
 import com.example.seckilling.vo.LoginVo;

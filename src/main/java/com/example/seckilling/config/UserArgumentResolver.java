@@ -2,7 +2,6 @@ package com.example.seckilling.config;
 
 import com.example.seckilling.domain.SeckillingUser;
 import com.example.seckilling.service.SeckillingUserService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
