@@ -13,6 +13,6 @@ public class SeckillingUserKey extends BasePrefix {
         super(expireSeconds, prefix);
     }
 
-    public static SeckillingUserKey token = new SeckillingUserKey(TOKEN_EXPIRE,"token");
+    public static SeckillingUserKey token = new SeckillingUserKey(TOKEN_EXPIRE, "token");
 
 }

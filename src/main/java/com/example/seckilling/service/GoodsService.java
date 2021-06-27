@@ -22,7 +22,7 @@ public class GoodsService {
         this.goodsDao = goodsDao;
     }
 
-    public List<GoodsVo> listGoodsVo(){
+    public List<GoodsVo> listGoodsVo() {
         return goodsDao.listGoodsVo();
     }
 }
